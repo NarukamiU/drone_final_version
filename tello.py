@@ -54,12 +54,12 @@ while True:
                 mydrone.move_left(int(value))
             elif command == "right" and int(value) > 0 and is_taken_off:
                 mydrone.move_right(int(value))
-            elif command == "up" and int(value) > 0 and is_taken_off:
-                mydrone.move_up(int(value))
             elif command == "forward" and int(value) > 0 and is_taken_off:
                 mydrone.move_forward(int(value))
             elif command == "back" and int(value) > 0 and is_taken_off:
                 mydrone.move_back(int(value))
+            elif command == "up" and int(value) > 0 and is_taken_off:
+                mydrone.move_up(int(value))
             elif command == "down" and int(value) > 0 and is_taken_off:
                 mydrone.move_down(int(value))
             elif command == "rotate_clockwise" and int(value) > 0 and is_taken_off:
